@@ -14,47 +14,46 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.scroll_layout);
-        Log.e("Create activity",this.getClass().getName());
+        Log.e("Create activity", this.getClass().getName());
     }
 
     @Override
     protected void onStart() {
         super.onStart();
-        Log.e("Start activity",this.getClass().getName());
+        Log.e("Start activity", this.getClass().getName());
     }
 
     @Override
     protected void onResume() {
         super.onResume();
-        Log.e("Resume activity",this.getClass().getName());
+        Log.e("Resume activity", this.getClass().getName());
     }
 
-    @Override
     protected void onPause() {
         super.onPause();
-        Log.e("Pause activity",this.getClass().getName());
+        Log.e("Pause activity", this.getClass().getName());
     }
 
     @Override
     protected void onStop() {
         super.onStop();
-        Log.e("Stop activity",this.getClass().getName());
+        Log.e("Stop activity", this.getClass().getName());
     }
 
     @Override
     protected void onDestroy() {
         super.onDestroy();
-        Log.e("Destroy activity",this.getClass().getName());
+        Log.e("Destroy activity", this.getClass().getName());
     }
 
     @Override
     protected void onRestart() {
         super.onRestart();
-        Log.e("Restart activity",this.getClass().getName());
+        Log.e("Restart activity", this.getClass().getName());
     }
 
     public void btnclick(View view) {
-        startActivity(new Intent(MainActivity.this,SecondActivity.class));
+        startActivity(new Intent(MainActivity.this, SecondActivity.class));
     }
 
 }

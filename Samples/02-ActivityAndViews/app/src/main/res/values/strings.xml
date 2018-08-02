@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ActivityLifeCycle</string>
+    <string name="startSecondActivity">Start Second Activity</string>
+    <string name="action_search">Search</string>
+    <string name="searchbyname">Search by name</string>
+    <string name="searchbycontent">Search by content</string>
+</resources>

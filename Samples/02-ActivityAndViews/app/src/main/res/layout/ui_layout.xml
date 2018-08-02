@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="UI Widget" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/Activitybtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onclickbtn"
+                android:text="Layouts" />
+
+            <Button
+                android:id="@+id/layoutbtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onclickbtn"
+                android:text="Layouts" />
+
+            <Button
+                android:id="@+id/spinnerbtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onclickbtn"
+                android:text="Spinner" />
+
+            <Button
+                android:id="@+id/autocompletebtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onclickbtn"
+                android:text="Auto Complete" />
+
+            <Button
+                android:id="@+id/ratingbtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onclickbtn"
+                android:text="Rating" />
+
+            <Button
+                android:id="@+id/webviewbtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onclickbtn"
+                android:text="Web View" />
+
+            <Button
+                android:id="@+id/seekbarbtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onclickbtn"
+                android:text="Seek Bar" />
+
+            <Button
+                android:id="@+id/datetimepickertn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onclickbtn"
+                android:text="Date Time Picker " />
+
+            <Button
+                android:id="@+id/menusbtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onclickbtn"
+                android:text="Menu Types" />
+
+            <Button
+                android:id="@+id/buttongroups"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onclickbtn"
+                android:text="Button Groups" />
+
+            <Button
+                android:id="@+id/custombtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onclickbtn"
+                android:text="Custom View" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

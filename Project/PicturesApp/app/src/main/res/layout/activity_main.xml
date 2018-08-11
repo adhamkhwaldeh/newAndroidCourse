@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.AppCompatSeekBar
+        android:id="@+id/seekX"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:max="2024"
+        android:min="200" />
+
+    <ImageView
+        android:id="@+id/sourceImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/applyBtn"
+        android:layout_below="@+id/seekX" />
+
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/applyBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/seekY"
+        android:text="@string/Apply" />
+
+    <android.support.v7.widget.AppCompatSeekBar
+        android:id="@+id/seekY"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="5dp"
+        android:max="2024"
+        android:min="200" />
+
+
+</RelativeLayout>
